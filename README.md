@@ -12,5 +12,6 @@ Install
 
 ```sh
 make install
-make run
+npm install http-server -g
+http-server ./ -p 8000
 ```
